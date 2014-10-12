@@ -1,3 +1,7 @@
+'''
+USAGE:
+python friends.py "/media/shruthi/Seagate Expansion Drive/Media/Movies/Serials/Friends HD 720p/"'''
+
 import sys
 import random
 import os
@@ -16,4 +20,4 @@ video = (path+"/"+episodes[episode_choice]).replace(" ","\\ ").replace("'","\\'"
 print video
 cmd='vlc '+video
 os.system(cmd)
-#/media/shruthi/Seagate Expansion Drive/Media/Movies/Serials/Friends HD 720p/
+
