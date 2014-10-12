@@ -1,6 +1,6 @@
 '''
 USAGE:
-python friends.py "/media/shruthi/Seagate Expansion Drive/Media/Movies/Serials/Friends HD 720p/"'''
+python friends.py "<path-to-the-friends-folder"'''
 
 import sys
 import random
